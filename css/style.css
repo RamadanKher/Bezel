@@ -47,6 +47,9 @@ body{
 /*==========================================*/
 .navbar{
   border-bottom: 1px solid rgba(139, 139, 139, 0.4);
+
+    padding: 0.6rem !important;
+    z-index: 9999999999999999999999999999999 !important;
 }
 .navbar .container{
   border-right: 1px solid rgba(139, 139, 139, 0.4);
@@ -128,13 +131,13 @@ opacity: 0;
 
 }
 .header .icons-nav i:hover{
-  color: #05e6ff ;
+  color: #8b8d8d ;
 }
 .navbar ul li a{
   transition: 0.5s;
 }
 .navbar ul li a:hover{
-  color: #05e6ff !important;
+  color: #8b8d8d !important;
 
 }
 .navbar{
