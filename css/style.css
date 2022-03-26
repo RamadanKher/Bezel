@@ -47,20 +47,19 @@ body{
 /*==========================================*/
 .navbar{
   border-bottom: 1px solid rgba(139, 139, 139, 0.4);
-  background-color: rgba(0, 0, 0, 0.4);
 }
 .navbar .container{
   border-right: 1px solid rgba(139, 139, 139, 0.4);
+  
 }
 .navbar .img-width{
     width: 15%;
     padding-left: 2rem;
-    padding: 0.5rem;
 }
 .navbar{
-   position: fixed;
    z-index:99999999999999;
    align-items: center;
+   
 }
 
 .navbar-nav{
@@ -76,7 +75,7 @@ margin-left:15rem;
   height: 100%;
   width: 100%;
   top:0 ;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 9;
 }
 .header .carousel img{
@@ -124,7 +123,7 @@ opacity: 0;
   opacity: 0;
 }
 .header .icons-nav i{
-  color: white;
+  color: black;
   cursor: pointer;
 
 }
@@ -137,6 +136,9 @@ opacity: 0;
 .navbar ul li a:hover{
   color: #05e6ff !important;
 
+}
+.navbar{
+  background-color:white ;
 }
 .header .carousel-item .carousel-caption{
   z-index:99 ;
